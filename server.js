@@ -15,7 +15,7 @@ mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true }).
 })
 
 app.get('/', (req, res) => {
-    res.send({"hello"})
+    res.send({message:"hello"})
 })
 
 const port = 4000
